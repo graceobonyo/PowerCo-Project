@@ -95,7 +95,21 @@ Customer subscription and service usage dataset.
 
 - Jupyter Notebook
 
----
+## Importing libraries
+
+The required libraries were selected and imported to be used in different stages based on their abilities to handle large datasets, perform predictive analytics and evaluate the models performances.
+
+The data manipulation libraries(Pandas and Numpy) were used in data loading,cleaning and transfromation.
+
+The data visualisation libraries(Matplotlib and Seaborn) were used in exploring patterns and relationships within the data.
+
+The data preprocessing and model selection libraries(Scikit Learn) prepared the data for machine learning.
+
+The machine learning libraries(ScikitLearn and XGBoost) built nad compare different classification models.Model evaluation libraries(Scikitlearn) assesed the predictive performance of the developed models using metrics like accuracy , Precision, Recall,F1-Score and ROC-AUC.
+
+## Data Loading
+
+The client and price data sets were eloaded into Pandas Data Frames using the read_csv() function.
 
 ## Data Cleaning
 
